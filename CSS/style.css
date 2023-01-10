@@ -1,0 +1,191 @@
+img {
+    float: left;
+  }
+  
+  
+  ul {
+    float: left;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
+  header {
+      height: 201px;
+      width: 100%;
+      background: #E19F90;
+      color: #5E5B5B;
+      font-size: 24px;
+    }
+  
+    .textsetting1{
+      
+      width: 75%;
+      text-align: center;
+      margin-left: 12%;
+      margin-right: 15%;
+      font-weight: 400;
+      font-size: 30px;
+      color: #000000;
+      text-decoration-line: underline;
+  }
+  
+    .textsetting{
+      
+      width: 60%;
+      text-align: center;
+      margin-left: 20%;
+      margin-right: 15%;
+      font-weight: 400;
+      font-size: 20px;
+      color: #000000;
+  }
+  
+  .field{
+    max-width: 60%;
+  margin-left: 15%;
+  border-color: black;
+  border-width: 1px;
+  
+  }
+  
+  .rectangle{
+    width: 1200px;
+    height: 1100px;
+    margin-left: 8%;
+    top: 758px;
+    background: #E2B0A2;
+    border-radius: 30px;
+  
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 250;
+  font-size: 22px;
+  line-height: 25px;
+  
+  letter-spacing: 0.02em;
+  }
+  
+  
+  .btncolorsetting{
+    margin-left: 45%;
+    margin-top: 3%;
+  align-items: center;
+    background: #4C8D82;
+    border-color: #4C8D82;
+  box-shadow: 0px 4px 4px rgba(107, 107, 107, 0.25);
+  border-radius: 15px;
+  width: 180px;
+  height: 60px;
+  
+  font-size: x-large;
+  color: #FFFFFF;
+  
+  }
+  
+    .footerClass {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      text-align: center;
+      color: #44413C;
+      }
+      
+      .footerPara {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      color: #44413C;
+      }
+      
+      .center-block {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      .center-button {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-color:orange;
+      } 
+  
+      .backgroundsize{
+        background-color:#4C8D82 ;
+        padding: 3%;
+    }
+  
+  .signupFormInputClass{
+   width: 350px;
+  height: 30px; 
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  left: 40%;
+  position:absolute;
+  }
+  
+  #inputbox {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+  }
+  
+  .signupFormClass{
+    margin-left: 5em;
+    width: auto;
+  }
+  
+  .signupFormClass1{
+    margin-left: 5em;
+  }
+  
+  .checkboxClass {
+    left: 37.5%;
+    top: -68px;
+    position:relative;
+  }
+  
+  .radioClass {
+    left: 37.5%;
+    top: -49px;
+    position:relative;
+  }
+  
+  .radioClass1 {
+    left: 37.5%;
+    top: -45px;
+    position:relative;
+  }
+  
+  .signupFormClass2{
+    margin-left: 5em;
+    margin-top: -40px;
+  }
+  
+  @media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
